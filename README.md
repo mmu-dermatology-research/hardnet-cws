@@ -37,6 +37,8 @@ Test the model using:
 
     python test.py --rect --tta vh
 
+Prediction masks are saved to the pred_mask directory.
+
 Test metrics can then be generated using:
 
     python get_metrics.py
