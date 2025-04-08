@@ -1,6 +1,6 @@
 # HarDNet-CWS: An Enhanced Harmonic Densely Connected Hybrid Transformer Network Architecture for Chronic Wound Segmentation Utilising Multi-Colour Space Tensor Merging
 
-Source code for the HarDNet-CWS architecture. This is a modified HarDNet segmentation model which shows improvements in performance when trained on light skin patients and tested on patients with darker skin tones. The main ehancements come from three core adjustments: (1) a tensor merging process that combines RGB tensors with an exaggerated luminance channel, (2) implementation of a modified stem with non-destructive contrast elimination, and (3) a rebalanced HarDNet block design.
+Source code for the HarDNet-CWS architecture. This is a modified HarDNet-DFUS segmentation model which shows improvements in performance when trained on light skin patients and tested on patients with darker skin tones. The main ehancements come from three core adjustments: (1) a tensor merging process that combines RGB tensors with an exaggerated luminance channel, (2) implementation of a modified stem with non-destructive contrast elimination, and (3) a rebalanced HarDNet block design.
 
 If you use any of the concepts or code from this repository, please consider citing our paper:
 
