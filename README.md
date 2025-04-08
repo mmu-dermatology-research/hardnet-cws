@@ -31,16 +31,16 @@ You can then train the model using:
 
     python train.py --rect --augmentation
 
-After the model has been trained, the trained weights will be saved to the weights/exp directory.
+After the model has been trained, the trained weights will be saved to the ``weights/exp`` directory.
 
 Test the model using:
 
     python test.py --rect --tta vh
 
-Prediction masks are saved to the pred_mask directory.
+Prediction masks are saved to the ``pred_mask`` directory.
 
 Test metrics can then be generated using:
 
     python get_metrics.py
 
-Test metrics are saved to the metrics directory.
+Test metrics are saved to the ``metrics`` directory.
