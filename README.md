@@ -44,3 +44,5 @@ Test metrics can then be generated using:
     python get_metrics.py
 
 Test metrics are saved to the ``metrics`` directory.
+
+For more information on the base architecure (HarDNet-DFUS), please refer to the original [repo](https://github.com/YuWenLo/HarDNet-DFUS).
