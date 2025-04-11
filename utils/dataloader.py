@@ -185,7 +185,7 @@ class create_dataset(data.Dataset):
         torch.manual_seed(seed) # needed for torchvision 0.7
 
         r, g, b = cv2.split(image)
-        # relative luminance
+        # exaggerated luminance
         l = (r*0.0722 + g*0.7152 + b*0.2126) # r and b coefficients are swapped
         l = np.array(((l) / np.max(l)) * 255, dtype='float32')        
         luminance = np.array((l**5 / np.max(l**5)) * 255, dtype='uint8')
@@ -249,7 +249,7 @@ class test_dataset(data.Dataset):
 
         image = np.array(image)
         r, g, b = cv2.split(image)
-        # relative luminance
+        # exaggerated luminance
         l = (r*0.0722 + g*0.7152 + b*0.2126) # r and b coefficients are swapped
         l = np.array(((l) / np.max(l)) * 255, dtype='float32')        
         luminance = np.array((l**5 / np.max(l**5)) * 255, dtype='uint8')
