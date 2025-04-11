@@ -45,4 +45,4 @@ Test metrics can then be generated using:
 
 Test metrics are saved to the ``metrics`` directory.
 
-For more information on the base architecure (HarDNet-DFUS), please refer to the original [repo](https://github.com/YuWenLo/HarDNet-DFUS).
+For more information on the base architecture (HarDNet-DFUS), please refer to the original [repo](https://github.com/YuWenLo/HarDNet-DFUS).
