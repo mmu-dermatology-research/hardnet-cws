@@ -10,8 +10,12 @@ from evalutils.io import SimpleITKLoader
 
 gt_path = 'dataset/test/masks/'
 pred_path = 'pred_mask/'
+
+if not os.path.exists('metrics'):
+    os.makedirs('metrics')
+	
 file_loader = SimpleITKLoader()
-gt_images = os.listdir(gt_path) #sorted(glob.glob(gt_path+"*"))#
+gt_images = os.listdir(gt_path)
 FNE_T = []
 FPE_T = []
 MO_T = []
