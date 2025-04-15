@@ -39,6 +39,10 @@ Test the model using:
 
 Prediction masks are saved to the ``pred_mask`` directory.
 
+Convert the prediction masks to 8-bit:
+
+    python convert_masks.py
+
 Test metrics can then be generated using:
 
     python get_metrics.py
