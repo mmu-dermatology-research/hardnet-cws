@@ -9,7 +9,12 @@ If you use any of the concepts or code from this repository, please consider cit
  title   = {An Enhanced Harmonic Densely Connected Hybrid Transformer Network Architecture for Chronic Wound Segmentation Utilising Multi-Colour Space Tensor Merging},
  author  = {Bill Cassidy and Christian McBride and Connah Kendrick and Neil D. Reeves and Joseph M. Pappachan and Cornelius J. Fernandez and Elias Chacko and Raphael Brüngel and Christoph M. Friedrich and Metib Alotaibi and Abdullah Abdulaziz AlWabel and Mohammad Alderwish and Kuan-Ying Lai and Moi Hoon Yap},
  year    = {2024},
- journal = {arXiv preprint arXiv:2410.03359}
+ journal = {Computers in Biology and Medicine},
+ volume = {192},
+ pages = {110172},
+ year = {2025},
+ issn = {0010-4825},
+ doi = {https://doi.org/10.1016/j.compbiomed.2025.110172}
 } 
 ```
 
