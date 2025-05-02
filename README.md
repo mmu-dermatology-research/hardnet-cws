@@ -12,7 +12,6 @@ If you use any of the concepts or code from this repository, please consider cit
  journal = {Computers in Biology and Medicine},
  volume = {192},
  pages = {110172},
- year = {2025},
  issn = {0010-4825},
  doi = {https://doi.org/10.1016/j.compbiomed.2025.110172}
 } 
